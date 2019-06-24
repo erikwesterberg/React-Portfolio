@@ -8,13 +8,15 @@
     "watch:css": "postcss src/css/tailwind.src.css -o src/css/tailwind.css -w",
     "start": "npm run watch:css & webpack-dev-server --inline --mode development --open",
     "build": "npm run build:css && webpack --mode production"
-    },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
