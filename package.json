@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --inline --mode development --open"
-  },
+    "build:css": "postcss src/css/tailwind.src.css -o src/css/tailwind.css",
+    "watch:css": "postcss src/css/tailwind.src.css -o src/css/tailwind.css -w",
+    "start": "npm run watch:css & webpack-dev-server --inline --mode development --open",
+    "build": "npm run build:css && webpack --mode production"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
