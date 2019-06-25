@@ -1,16 +1,18 @@
 
+    
 import React, { Component } from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
-import { UndrawDesigner } from 'react-undraw-illustrations';
+import { UndrawBookLover } from 'react-undraw-illustrations';
 
 class Projects extends Component {
-    constructor() {
+    constructor () {
         super();
         this.state = {
-            projects: []
+            projects: [ ]
         };
     }
+
     componentDidMount() {
         axios.get('./src/data/projects.json')
             .then(response => {
@@ -19,9 +21,10 @@ class Projects extends Component {
                 })
             })
     }
-    render() {
+
+    render () {
         const projects = this.state.projects
-        let projectsList 
+        let projectsList
 
         if (projects.length > 0) {
             projectsList = projects.map(project => {
@@ -33,14 +36,27 @@ class Projects extends Component {
             })
         }
 
-
         return (
-            <div>
-                <h1 className="content-text">My Projects</h1>
-                {projectsList}
+            <div className="content-wrapper">
+                <div className="flex mb-4">
+                    <div className="w-1/4">
+                        <UndrawBookLover primaryColor='#12283a' height='200px' />
+                    </div>
+                    <div className="w-3/4">
+                        <h1>My Projects</h1>
+                        <p>This is a selection of some of my projects I have been working on.</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div className="flex flex-wrap mx-2 lg:-mx-4">
+                    {projectsList}
+                    </div>
+                </div>
             </div>
         )
     }
 };
 
-export default Projects
+export default Projects;
