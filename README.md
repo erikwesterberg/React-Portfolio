@@ -16,3 +16,6 @@ We have made significant progress but have only scratched the surface yet.
 
 Must call super on the first line in React when u use a constructor
 
+If u gonna create a header or whatever you create a own component.
+
+Render Props. The term “render prop” refers to a technique for sharing code between React components using a prop whose value is a function. A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.
