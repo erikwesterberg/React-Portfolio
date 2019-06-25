@@ -8,21 +8,25 @@ import { BrowserRouter } from 'react-router-dom'
 import Projects from "./Projects"
 import About from "./About"
 import { Switch, Route } from 'react-router-dom'
+
 const App = () => {
     return (
-        <div className="page-wrapper">
-            <div className="page-content">
-                <Header />
-                <div className="content-wrapper">
-                    <Switch>
-                        <Route exact path='/' component={Hello}></Route>
-                        <Route exact path='/about' component={About}></Route>
-                        <Route exact path='/projects' component={Projects}></Route>
-                    </Switch>
+        <div className="content-wrapper">
+            <div className="flex mb-4">
+                <div className="w-1/4">
+                    <UndrawDashboard />
                 </div>
-                <Footer />
-            </div >
-        </div >
+                <div className="w-3/4">
+                    <h1>My Projects</h1>
+                    <p>This is a selection of some of my projects I have been working on.</p>
+                </div>
+
+            </div>
+
+            <div className="flex flex-wrap -mx-1 lg:-mx-4">
+                {projectsList}
+            </div>
+        </div>
     )
 };
 
