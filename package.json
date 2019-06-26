@@ -14,10 +14,13 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
+    "file-loader": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-particles-js": "^2.6.0",
     "react-router-dom": "^5.0.1",
-    "react-undraw-illustrations": "^2.0.3"
+    "react-undraw-illustrations": "^2.0.3",
+    "url-loader": "^2.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -26,9 +29,9 @@
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.6.0",
     "babel-loader": "^8.0.2",
-    "css-loader": "^1.0.0",
+    "css-loader": "^1.0.1",
     "postcss-cli": "^6.1.2",
-    "style-loader": "^0.23.0",
+    "style-loader": "^0.23.1",
     "tailwindcss": "^0.7.4",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",

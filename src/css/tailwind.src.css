@@ -4,8 +4,10 @@
 @tailwind screens;
 /** Page **/ 
 
+
 .page-wrapper {
     @apply min-h-screen;
+    
 }
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
@@ -24,10 +26,11 @@
 
 .footer-wrapper {
     @apply border-t px-8 py-4;
-}
+
+    
 
 .footer-content {
-    @apply flex justify-center text-grey;
+    @apply flex justify-around text-grey items-center;
 }
 
 /** Content section **/
