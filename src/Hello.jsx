@@ -1,8 +1,11 @@
 import React from "react"
+import coolshit from "./image/coolshit.jpg"
 
 const Hello = () => {
     return (
-        <p className="content-text">Hello World</p>
+        <div className="fucker">
+        <img src={coolshit} />
+        </div>
 )
 }
 export default Hello
