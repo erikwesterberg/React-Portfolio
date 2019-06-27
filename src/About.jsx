@@ -12,10 +12,17 @@ const About = () => {
                 </div>
                 <div className="w-full lg:w-3/4 md:w-1/2">
                     <h1>About Me</h1>
-                    <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
+                    <p>IM LEARNING EVERYDAY!</p>
+                    <ul>
+                        <li>Proffesional plumber and Welder</li>
+                        <li>Im in need of new challanges.</li>
+                        <li>Will become a junior web developer.</li>
+                        <li>Efficient team leader and coach.</li>
+                    </ul>
+                </div>
                 </div>
             </div>
-        </div>
+        
     )
 }
 

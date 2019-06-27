@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="header-wrapper">
             <h1 className="content-h1">Contact</h1>
             <br></br>
-            <p className="content-text">If you want to contact me, as you should - fill in your email so I can respond!</p>
+            <p className="content-text">If you want to contact me, as you should. Send a mail to: erik.westerberg@hotmail.se.</p>
         </div>
         </div>
         </div>
