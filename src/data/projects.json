@@ -1,20 +1,39 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
-        "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-        "description": "This was my first project. The guy lost, but won the popular vote!"
+        "name": "ATM Challenge",
+        "image": "http://digital-photography-school.com/blog/wp-content/uploads/2008/01/wide-angle-lens-3-1.jpg",
+        "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
+        "description": "Challenge: Create the back-end system for an ATM machine in Ruby",
+        "GitHub": "https://github.com/erikwesterberg/atm_challenge",
+        "deployed":""
     },
     {
         "id": 2,
-        "name": "UI Design",
-        "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        "description": "Designing user interfaces is fun. I want to learn more about that..."
+        "name": "Library Challenge",
+        "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
+        "image": "https://t3.ftcdn.net/jpg/00/98/03/84/240_F_98038403_WTwloHrzmgptZgnJz59e17iZTdntCELY.jpg",
+        "description": "Challenge: Create the back-end system for a Library in Ruby",
+        "GitHub": "https://github.com/erikwesterberg/library-challenge",
+        "deployed":""
     },
     {
         "id": 3,
-        "name": "Mobile UX",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+        "name": "Address Book",
+        "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
+        "image": "https://www.photographymad.com/files/images/wide-angle-goat.jpg",
+        "description": "Challenge: Create an address book - in JavaScript",
+        "GitHub": "https://github.com/erikwesterberg/address-book",
+        "deployed": ""
+
+    },
+    {
+        "id": 4,
+        "name": "FizzBuzz JS Challenge",
+        "tag": "https://class.craftacademy.co/static/craftacademy/images/logo.b00150fcd79f.png",
+        "image": "http://www.sptc.spb.ru/images/700/DSC100786408.jpg",
+        "description": "Challenge: Create a FizzBuzz calculator in Javascript",
+        "GitHub": "https://github.com/erikwesterberg/itp_fizzbuzz",
+        "deployed": ""
     }
 ]

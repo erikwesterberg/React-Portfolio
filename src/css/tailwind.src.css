@@ -29,7 +29,7 @@
 @tailwind utilities;
 .content-wrapper {
     @apply p-0 p-0 flex-1 overflow-auto bg-grey;
-}
+} */
 .content-text {
     @apply text-grey-dark;
 };

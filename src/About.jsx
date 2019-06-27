@@ -16,8 +16,8 @@ const About = () => {
                     <ul>
                         <li>Proffesional plumber and Welder</li>
                         <li>Im in need of new challanges.</li>
-                        <li>Will become a junior web developer.</li>
-                        <li>Efficient team leader and coach.</li>
+                        <li>I WILL BECOME A DEVELOPER.</li>
+                        
                     </ul>
                 </div>
                 </div>
