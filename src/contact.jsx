@@ -1,11 +1,10 @@
 import React from "react"
-import { UndrawNewsletter } from "react-undraw-illustrations";
-import cool from "./image/hacker.png"
+
 
 
 const Contact = () => {
     return (
-        <form action="POST" data-netlify="true">
+        <form action="POST" data-netlify="true" style={motherDiv}>
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -29,6 +28,19 @@ const Contact = () => {
             
     
     )
+}
+
+const motherDiv = {
+    marginLeft: '40%',
+    marginTop: '5%',
+    textAlign: 'left',
+    fontFamily: 'karla',
+    fontWeight: 'bold',
+    fontSize: '15px',
+    lineHeight: '122px',
+    letterSpacing: '-0.10em',
+    
+    
 }
 
 
