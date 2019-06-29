@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "dates": "July 2018 - May 2019",
+        "company": "Norrlands-RÖR",
+        "title": "Certified Plumber And Welder",
+        "description": "Different days of different problem to solve regarding getting heat and water to the people"
+      
+    },
+    {
+        "id": 2,
+        "dates": "September 2016 - June 2018",
+        "company": "Norrlands-RÖR",
+        "title": "Certified Plumber And Welder",
+        "description": "Different days of different problem to solve regarding getting heat and water to the people"
+    },
+    {
+        "id": 3,
+        "dates": "April 2014 - September 2016",
+        "company": "UMIA",
+        "title": "Certified Plumber And Welder",
+        "description": "Different days of different problem to solve regarding getting heat and water to the people"
+
+    }
+]
