@@ -7,15 +7,13 @@ import React, { Component } from "react"
 const Work = (props) => {
     let work = props.work 
     return(
-        <div key={work.id}>
-            <div>
-                {work.title}
-                {work.company}
-                {work.dates}
-                {work.description}
-
+             
+        <div class="border-dashed border-4 border-black-600 ..." >
+                <div key={work.id} class="flex md:flex-row-reverse flex-wrap">
+                <div class="w-full md:w-3/4 bg-gray-500 p-4 text-center text-gray-200">{work.title}</div>
+                <div class="w-full md:w-1/4 bg-gray-400 p-4 text-center text-gray-700">{work.company} {work.dates}</div>
+                <div class="w-full md:w-3/4 bg-gray-500 p-4 text-center text-gray-200">{work.description}</div>
             </div>
-
         </div>
     )
 }
@@ -44,7 +42,7 @@ class DataToWeb extends Component {
         let workList
 
         if(work.length>0) {
-            workList = workmap(work => {
+            workList = work.map(work => {
                 return (
                     <div key={work.id}>
                         <Work work={work} />
@@ -55,11 +53,17 @@ class DataToWeb extends Component {
     
         return (
             <>
-            <div>WorkLife</div>
+            <h3 style={fucker}>Work Experience</h3>
             {workList}
             </>
         )
     }
 }   
+
+// const fucker = {
+//     fontSize: "50px",
+//     textAlign: "center"
+    
+// }
 
 export default DataToWeb;
