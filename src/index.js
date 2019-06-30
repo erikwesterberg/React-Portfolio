@@ -10,27 +10,10 @@ import { BrowserRouter } from 'react-router-dom'
 import Projects from "./Projects"
 import About from "./About"
 import { Switch, Route } from 'react-router-dom'
-import Particles from 'react-particles-js';
 
 
-    // const particleOpt =  {
-                                   
-    //             particles: {
-    //                 number: {
-    //                     value: 150,
-    //                     density: {
-    //                         enable: true,
-    //                         value_area: 800
-    //                     }
-    //         }
-    //         }
-    //         }
-                                    
-                                        
-        
-                                    
 
-
+                 
 
 const App = () => {
     return (
