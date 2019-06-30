@@ -2,19 +2,16 @@
 
 My portfolio in React challenge.
 
+CraftAcademy weak 3
+
 OBS! Excuse my bad styling, i didnt make so much effort to it.
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-
 
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+[Its deployed with Netlify](https://www.netlify.com)
+
+[Visit it here](https://nostalgic-mclean-10572c.netlify.com)
 
 ## Built With
 
@@ -24,7 +21,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Erik Westerberg** - *
+* **Erik Westerberg** 
 
 
 
