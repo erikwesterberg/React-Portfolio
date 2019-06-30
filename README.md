@@ -1,29 +1,38 @@
-First of all, exuse me for my shitty portfolio but I just wanna keep diging in the coding stuff and not styling. We have vacay in aug, maybe then Ill style!
+# Project Title
+
+My portfolio in React challenge.
+
+OBS! Excuse my bad styling, i didnt make so much effort to it.
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
 
 
 
 
+## Deployment
 
-# React-Portfolio - BY Erik Westerberg
+Add additional notes about how to deploy this on a live system
 
-We are using:
+## Built With
 
-NPM as package manager that helps us to install or update third-party packages and dependencies.
+* [React]
+* [Tailwind]
 
-Webpack as bundler that lets us to write modular code and bundle it together into small packages to optimize load time.
 
-Babel as compiler that lets us write ES6 code and make sure our code works in older browsers.
+## Authors
 
-We have made significant progress but have only scratched the surface yet.
- 
- --
- Everything in react is a component. And components return exactly 1 dom element.
- everything inside of curly brackets will execude like normal JS.
+* **Erik Westerberg** - *
 
-Must call super on the first line in React when u use a constructor
 
-If u gonna create a header or whatever you create a own component.
 
-Render Props. The term “render prop” refers to a technique for sharing code between React components using a prop whose value is a function. A component with a render prop takes a function that returns a React element and calls it instead of implementing its own render logic.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+
 
 
