@@ -64,4 +64,4 @@ const fucker = {
     
 }
 
-export default StudyLife
+export default StudyLife;

@@ -4,7 +4,8 @@ import React from "react"
 
 const Contact = () => {
     return (
-        <form action="POST" data-netlify="true" style={motherDiv}>
+        
+		<form action="POST" data-netlify="true" style={motherDiv}>
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
