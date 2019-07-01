@@ -11,7 +11,7 @@ OBS! Excuse my bad styling, i didnt make so much effort to it.
 
 [Its deployed with Netlify](https://www.netlify.com)
 
-[Visit it here](https://nostalgic-mclean-10572c.netlify.com)
+[Visit it here](hhttps://erik-westerberg-portfolio.netlify.com)
 
 ## Built With
 
